@@ -61,6 +61,7 @@ Tab:AddToggle({
 		lighting.GlobalShadows = true
 		lighting.OutdoorAmbient = Color3.fromRGB(0,0,0)
 	end    
+  end
 })
 Tab:AddButton({
 	Name = "Give Permanent NormalKey",
