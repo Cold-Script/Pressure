@@ -90,25 +90,25 @@ Tab:AddToggle({
 })
 Tab:AddToggle({
 	Name = "Notify Monster",
-	Default = true,
+	Default = false,
 	Flag = "NotifyMonster",
 	Save = true
 })
 Tab:AddToggle({
 	Name = "No Eyefestation",
-	Default = true,
+	Default = false,
 	Flag = "noeyefestation",
 	Save = true
 })
 Tab:AddToggle({
 	Name = "No Steams",
-	Default = true,
+	Default = false,
 	Flag = "steaming",
 	Save = true
 })
 Tab:AddToggle({
 	Name = "Key ESP",
-	Default = true,
+	Default = false,
 	Flag = "keys",
 	Save = true,
 	Callback = function(Value)
@@ -119,7 +119,7 @@ Tab:AddToggle({
 })
 Tab:AddToggle({
 	Name = "Monster ESP",
-	Default = true,
+	Default = false,
 	Flag = "monsters",
 	Save = true,
 	Callback = function(Value)
@@ -130,7 +130,7 @@ Tab:AddToggle({
 })
 Tab:AddToggle({
 	Name = "TricksterRoom ESP",
-	Default = true,
+	Default = false,
 	Flag = "TricksterRoomdanger",
 	Save = true,
 	Callback = function(Value)
@@ -141,7 +141,7 @@ Tab:AddToggle({
 })
 Tab:AddToggle({
 	Name = "Monster Locker ESP",
-	Default = true,
+	Default = false,
 	Flag = "monsterlocker",
 	Save = true,
 	Callback = function(Value)
